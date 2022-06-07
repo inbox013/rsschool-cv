@@ -11,7 +11,7 @@ ___
 - [X] punctuality <br>
 ___
 ## Languages:
-- **English** - Intermediate (TESOL Certificate, International Open Academy, April 2020)
+- **English** - Intermediate
 - **Russian** - Advanced
 - **Belarusian** - Advanced
 - **Chinese** - Elementary
