@@ -10,3 +10,8 @@ ___
 - [X] learnability <br>
 - [X] punctuality <br>
 ___
+## Languages:
+- **English** - Intermediate (TESOL Certificate, International Open Academy, April 2020)
+- **Russian** - Advanced
+- **Belarusian** - Advanced
+- **Chinese** - Elementary
