@@ -29,6 +29,9 @@ table {
 .bio p {
    margin: 20px 0px;
 }
+h2 {
+   padding-top: 5px;
+}
 .w-e {
    border: 0px solid white;
    background-color: #6286aa80;
@@ -102,4 +105,26 @@ li {
 }
 h4 {
    font-size: 18px;
+}
+.foot {
+   display: flex;
+   justify-content: center;
+   background-color: #6286aa50;
+   padding: 10px;
+   width: auto;
+   height: 74px;
+   line-height: 74px;
+}
+.foot__text {
+   display: inline-block;
+   margin: 0 auto;
+}
+.foot__linkGit {
+   display: inline-block;
+   margin: 0 auto;
+
+}
+.foot__linkRS {
+   display: inline-block;
+   margin: 0 auto;
 }
