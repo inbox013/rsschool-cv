@@ -13,18 +13,17 @@ table {
 }
 .avabio {
    display: flex;
-   margin: 0 auto;
-   justify-content: space-between;
-   align-items: center;
+   justify-content: center;
    background-color: #6286aa90;
    padding: 20px 50px;
 }
 .ava img {
-   width: auto;
    height: 200px;
+   margin: 0 auto;
 }
 .bio {
    font-size: 22px;
+   margin: 0 auto;
 }
 .bio p {
    margin: 20px 0px;
@@ -116,15 +115,13 @@ h4 {
    line-height: 74px;
 }
 .foot__text {
-   display: inline-block;
    margin: 0 auto;
+   font-weight: 700;
 }
 .foot__linkGit {
-   display: inline-block;
    margin: 0 auto;
 
 }
 .foot__linkRS {
-   display: inline-block;
    margin: 0 auto;
 }
