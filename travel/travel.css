@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+   margin:0;
+   padding:0;
+   border:0;
+   font-size:100%;
+   font:inherit;
+   vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,main,header,hgroup,menu,nav,section {
+   display:block;
+}
+body,html {
+   height:100%;
+}
+body {
+   line-height:1;
+}
+ol,ul {
+   list-style:none;
+}
+blockquote,q {
+   quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+   content:'';
+   content:none
+}
+table {
+   border-collapse:collapse;
+   border-spacing:0;
+}
+:focus {
+   outline: 0;
+}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration
+input[type=search]::-webkit-search-results-button
+input[type=search]::-webkit-search-results-decoration {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+input[type=search] {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+textarea {
+   overflow: auto;
+   vertical-align: top;
+   resize: vertical;
+}
+audio, canvas, video {
+   display: inline-block;
+   *display: inline;
+   *zoom: 1;
+   max-width: 100%;
+}
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+[hidden] {
+   display: none;
+}
+html {
+   font-size: 100%;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+}
+a:focus {
+   outline: 0;
+}
+a:active, a:hover {
+   outline: 0;
+}
+img {
+   border: 0;
+   -ms-interpolation-mode: bicubic;
+}
+fieldset {
+   border: 1px solid #c0c0c0;
+   margin: 0 2px;
+   padding: 0.35em 0.65em 0.75em;
+}
+legend {
+   border: 0;
+   padding: 0;
+   white-space: normal;
+   *margin-left: -7px;
+}
+
+.page-wrapper {
+   position: relative;
+   width: 1440px;
+   height: 3735px;
+   margin: 0 auto;
+}
+.head__bc {
+   position: static;
+   width: 100%;
+   height: 90px;
+   background-color: rgba(242, 120, 92, 0.7);
+   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+   color: white;
+}
+.head {
+   display: flex;
+   justify-content: space-between;
+   width: 1200px;
+   align-content: center;
+   margin: 0 auto;
+}
+.logo {
+   width: 216px;
+   height: 31px;
+   font-family: "Magra";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   margin-top: 25px;
+}
+.menu {
+   width: 527px;
+   height: 21px;
+   margin-top: 35px;
+}
+.menu-list {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   font-family: "Red Hat Text";
+   font-weight: 500;
+   font-size: 16px;
+}
+.login {
+   width: 103px;
+   height: 41px;
+   margin-top: 25px;
+}
+.login input {
+   width: 100%;
+   height: 100%;
+   color: white;
+   background: #0D606F;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   font-family: "Red Hat Text";
+   font-weight: 500;
+   font-size: 16px;
+}
+.mountains {
+   position: relative;
+   z-index: -1;
+   margin-top: -90px;
+}
+.s1 {
+   position: absolute;
+   width: 1440px;
+   height: 765px;
+   margin-top: -765px;
+}
+.plan-your-trip {
+   justify-content: space-between;
+   width: 892px;
+   height: 422px;
+   margin: 122px 0 0 120px;
+}
+.plan-your-trip__text {
+   color: white;
+   font-family: "Aleo";
+   font-weight: 700;
+   line-height: 96px;
+}
+.plan-your-trip h1 {
+   font-size: 80px;
+}
+.plan-your-trip p {
+   font-size: 20px;
+   font-style: italic;
+}
+.plan-your-trip__search {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 95px;
+   background-color: rgba(255, 255, 255, 0.7);
+   border-radius: 16px;
+   margin-bottom: 33px;
+}
+.plan-your-trip__search-text {
+   display: block;
+   width: 560px;
+   height: 95px;
+   margin-left: 41px;
+   font-family: "Aleo";
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   color: #F2785C;
+   background: none;
+   border: 0;
+}
+.plan-your-trip__search-text::placeholder { 
+   color: #F2785C; 
+}
+.plan-your-trip__search-button {
+   display: flex;
+   width: 228px;
+   height: 59px;
+}
+.plan-your-trip__search-button input {
+   width: 100%;
+   height: 100%;
+   background: #0D606F;
+   color: white;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   margin: 18px 18px;
+}
+.s2 {
+   width: 1177px;
+   height: 247px;
+   text-align: center;
+   margin: 80px auto 0;
+}
+.s2 h2 {
+   font-family: 'Red Hat Text';
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   margin-bottom: 40px;
+   color: #F2785C;
+}
+.steps {
+   text-align: center;
+}
