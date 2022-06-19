@@ -18,22 +18,22 @@
                </div>
                <nav class="menu">
                   <ul class="menu-list">
-                     <li><a href="#HowItWorks"></a>How It Works</li>
-                     <li><a href="#Plan Your Trip"></a>Plan Your Trip</li>
-                     <li><a href="#Destinations"></a>Destinations</li>
-                     <li><a href="#Travel Stories"></a>Travel Stories</li>
+                     <li><a href="#HowItWorks">How It Works</a></li>
+                     <li><a href="#PlanYourTrip">Plan Your Trip</a></li>
+                     <li><a href="#Destinations">Destinations</a></li>
+                     <li><a href="#TravelStories">Travel Stories</a></li>
                   </ul>
                </nav>
-               <div class="login">
+               <form class="login">
                   <input type="button" value="Login">
-               </div>
+               </form>
             </div>
          </header>
          <main>
             <div class="mountains">
-               <img src="pictures/picture-1.svg" alt="mountains">
+               <img src="pictures/picture 1.jpg" alt="mountains">
             </div>
-            <section class="preview">
+            <section class="preview" id="HowItWorks">
                <div class="plan-your-trip">
                   <div class="plan-your-trip__text">
                      <h1>Explore the beauty of <br> the World</h1>
@@ -41,13 +41,13 @@
                   </div>
                   <div class="plan-your-trip__search">
                      <input class="plan-your-trip__search-text" type="text" placeholder="What would you like to do?">
-                     <div class="plan-your-trip__search-button">
+                     <form class="plan-your-trip__search-button">
                         <input type="button" value="Start Planning">
-                     </div>
+                     </form>
                   </div>
                </div>
             </section>
-         <section class="steps">
+         <section class="steps" id="PlanYourTrip">
             <h2>3 STEPS TO THE PERFECT TRIP</h2>
             <div class="stepses">
                <div class="bike">
@@ -64,22 +64,21 @@
                </div>
             </div>
          </section>
-         <section class="destinations">
+         <section class="destinations" id="Destinations">
             <h2>POPULAR DESTINATIONS</h2>
             <div class="carousel">
-               <div class="carousel-image">
-                  <img src="pictures/Norway.svg" alt="Norway">
-                  <p>Norway</p>
-               </div>
-               <div class="carousel-image">
-                  <img src="pictures/Japan.svg" alt="Japan">
-                  <p>Japan</p>
-               </div>
-               <div class="carousel-image">
-                  <img src="pictures/USA.svg" alt="USA">
-                  <p>USA</p>
-               </div>
+               <div class="carousel-image__normay"><span>NORWAY</span></div>
+               <div class="carousel-image__japan"><span>JAPAN</span></div>
+               <div class="carousel-image__usa"><span>USA</span></div>
             </div>
+            <div class="carousel-dots">
+               <div class="carousel-dots__dot1"></div>
+               <div class="carousel-dots__dot2"></div>
+               <div class="carousel-dots__dot3"></div>
+            </div>
+            <form class="carousel-button">
+               <button><img src="pictures/arrow.svg" alt="arrow right" style="vertical-align: middle;"> Find More</button>
+            </form>
          </section>
       </main>
       <footer></footer>

@@ -74,11 +74,10 @@ html {
    -webkit-text-size-adjust: 100%;
    -ms-text-size-adjust: 100%;
 }
-a:focus {
+a, a:focus, a:active, a:hover, a:link, a:visited {
+   text-decoration: none;
    outline: 0;
-}
-a:active, a:hover {
-   outline: 0;
+   color: white;
 }
 img {
    border: 0;
@@ -103,7 +102,6 @@ legend {
    margin: 0 auto;
 }
 .head__bc {
-   position: static;
    width: 100%;
    height: 90px;
    background-color: rgba(242, 120, 92, 0.7);
@@ -112,9 +110,9 @@ legend {
 }
 .head {
    display: flex;
-   justify-content: space-between;
+   position: relative;
+   z-index: 1;
    width: 1200px;
-   align-content: center;
    margin: 0 auto;
 }
 .logo {
@@ -130,11 +128,11 @@ legend {
    width: 527px;
    height: 21px;
    margin-top: 35px;
+   margin-left: 158px;
 }
 .menu-list {
    display: flex;
    justify-content: space-between;
-   list-style: none;
    font-family: "Red Hat Text";
    font-weight: 500;
    font-size: 16px;
@@ -143,6 +141,7 @@ legend {
    width: 103px;
    height: 41px;
    margin-top: 25px;
+   margin-left: 196px;
 }
 .login input {
    width: 100%;
@@ -284,8 +283,8 @@ legend {
 .destinations {
    width: 100%;
    height: 1042px;
-   text-align: center;
    margin: 91px auto 0;
+   text-align: center;
 }
 .destinations h2 {
    font-family: 'Red Hat Text';
@@ -300,16 +299,80 @@ legend {
    overflow: hidden;
    justify-content: center;
 }
-.carousel-image {
-   margin: 0 30px;
-}
-.carousel-image p {
-   z-index: 2;
+.carousel span {
+   display: block;
    font-family: 'Red Hat Text';
    font-weight: 500;
    font-size: 32px;
    line-height: 42px;
-   color: red;
-   text-align: start;
+   color: white;
    margin-left: 15px;
+   margin-top: 718px;
+}
+.carousel-image__normay {
+   flex-shrink: 0;
+   width: 800px;
+   height: 800px;
+   background: url(pictures/Norway.jpg);
+   margin: 0 30px;
+   text-align: start;
+}
+.carousel-image__japan { 
+   flex-shrink: 0;
+   width: 800px;
+   height: 800px;
+   background: url(pictures/Japan.jpg);
+   margin: 0 30px;
+   text-align: start;
+}
+.carousel-image__usa {
+   flex-shrink: 0;
+   width: 800px;
+   height: 800px;
+   background: url(pictures/USA.jpg);
+   margin: 0 30px;
+   text-align: start;
+}
+.carousel-dots {
+   display: flex;
+   justify-content: space-between;
+   width: 80px;
+   height: 20px;
+   margin: 24px auto 40px;
+}
+.carousel-dots__dot1 {
+   width: 20px;
+   height: 20px;
+   background: rgba(242, 120, 92, 0.5);
+   border-radius: 50%;
+}
+.carousel-dots__dot2 {
+   width: 20px;
+   height: 20px;
+   background: rgba(242, 120, 92, 1);
+   border-radius: 50%;
+}
+.carousel-dots__dot3 {
+   width: 20px;
+   height: 20px;
+   background: rgba(242, 120, 92, 0.5);
+   border-radius: 50%;
+}
+.carousel-button {
+   display: flex;
+   margin: 0 auto;
+   width: 228px;
+   height: 59px;
+}
+.carousel-button button {
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   color: #FFFFFF;
+   width: 100%;
+   height: 100%;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
 }
