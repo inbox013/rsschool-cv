@@ -3,10 +3,242 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV — Китаев Дмитрий</title>
+    <meta name="description" content="CV Китаева Дмитрия Николаевича — веб-разработчика и специалиста по автоматизации.">
+    <title>Китаев Дмитрий Николаевич — CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Китаев Дмитрий Николаевич</h1>
+    <div class="cv-wrapper">
+      <aside class="sidebar">
+        <img class="sidebar__photo" src="img/ava.jpg" alt="Фотография Китаева Дмитрия Николаевича" width="200" height="200">
+
+        <h1 class="sidebar__name">Китаев<br />Дмитрий Николаевич</h1>
+        <p class="sidebar__role">Full-Stack JavaScript Developer</p>
+
+        <nav class="sidebar__nav" aria-label="Навигация по разделам CV">
+          <h2 class="sidebar__heading">Навигация</h2>
+          <ul class="sidebar__list">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#code">Пример кода</a></li>
+            <li><a href="#experience">Опыт работы</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#courses">Курсы и сертификаты</a></li>
+            <li><a href="#languages">Языки</a></li>
+          </ul>
+        </nav>
+
+        <section class="sidebar__section" aria-labelledby="contacts-heading">
+          <h2 class="sidebar__heading" id="contacts-heading">Контакты</h2>
+          <ul class="sidebar__list">
+            <li>Email: <a href="mailto:inbox0130@gmail.com">inbox0130@gmail.com</a></li>
+            <li>Telegram: <a href="https://t.me/inbox013">@inbox013</a></li>
+            <li>GitHub: <a href="https://github.com/inbox013">inbox013</a></li>
+            <li>Локация: Витебск, Беларусь</li>
+          </ul>
+        </section>
+
+        <section class="sidebar__section" aria-labelledby="languages-heading">
+          <h2 class="sidebar__heading" id="languages-heading">Языки</h2>
+          <ul class="sidebar__list">
+            <li>Русский — C2</li>
+            <li>Белорусский — родной</li>
+            <li>Английский — B2</li>
+            <li>Китайский — A1</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="content">
+        <section class="section" id="about" aria-labelledby="about-heading">
+          <h2 class="section__heading" id="about-heading">Обо мне</h2>
+          <p>
+            Комплексный специалист по веб-разработке и автоматизации с полным циклом создания и поддержки сайтов — от макета до финального
+            SEO-продвижения. Создаю рабочие инструменты для бизнеса: интегрирую сайты с CRM (amoCRM, Битрикс24) и мессенджерами, настраиваю аналитику
+            (Яндекс Метрика, Roistat) и оптимизирую скорость загрузки.
+          </p>
+          <p>
+            Владею стеком Tilda, WordPress, Bitrix и PHP, что позволяет гибко решать задачи любой сложности. Успешно сопровождаю образовательные
+            проекты на GetCourse, занимаюсь менеджментом учеников и технической организацией вебинаров.
+          </p>
+          <p>
+            <strong>Цель:</strong> развиваться в направлении Full-Stack JavaScript-разработки, углубить знания в React и Node.js, работать над
+            интересными проектами в команде.
+          </p>
+        </section>
+
+        <section class="section" id="skills" aria-labelledby="skills-heading">
+          <h2 class="section__heading" id="skills-heading">Навыки</h2>
+
+          <h3 class="section__subheading">Языки и технологии</h3>
+          <ul class="tag-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+
+          <h3 class="section__subheading">CMS и платформы</h3>
+          <ul class="tag-list">
+            <li>WordPress</li>
+            <li>Tilda</li>
+            <li>1С-Битрикс</li>
+            <li>Bitrix</li>
+            <li>Creatium</li>
+            <li>GetCourse</li>
+          </ul>
+
+          <h3 class="section__subheading">Инструменты</h3>
+          <ul class="tag-list">
+            <li>amoCRM</li>
+            <li>Битрикс24</li>
+            <li>МойСклад</li>
+            <li>Roistat</li>
+            <li>Яндекс Метрика</li>
+            <li>SEO-оптимизация</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code" aria-labelledby="code-heading">
+          <h2 class="section__heading" id="code-heading">Пример кода</h2>
+          <p>Решение задачи с Codewars на JavaScript — функция умножения двух чисел:</p>
+          <pre class="code-block"><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-heading">
+          <h2 class="section__heading" id="experience-heading">Опыт работы</h2>
+
+          <article class="job">
+            <h3 class="job__title">Технический специалист — Alandr Group, Москва</h3>
+            <p class="job__period">Сентябрь 2022 — Май 2026 (3 года 9 месяцев)</p>
+            <ul class="job__list">
+              <li>Работа с хостингом: регистрация и перенос доменов между регистраторами и CMS</li>
+              <li>
+                Создание лендингов и промо-сайтов, вёрстка многостраничников и интернет-магазинов (PHP, HTML/CSS/JS, Tilda, Creatium, WordPress,
+                1С-Битрикс)
+              </li>
+              <li>SEO-оптимизация: метатеги, заголовки, alt-атрибуты, robots.txt, sitemap.xml, редиректы, 404</li>
+              <li>Работа с amoCRM, Битрикс24, Roistat, Яндекс Метрикой</li>
+              <li>Настройка и сопровождение GetCourse: продукты, доступы, логика обучения, вебинары</li>
+              <li>Интеграции сайтов с CRM и мессенджерами</li>
+              <li>Разработка макетов интерфейсов и адаптация под устройства</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Рабочий по протяжке кабеля — UAB "Ekofon", Литва</h3>
+            <p class="job__period">Август 2021 — Май 2022 (10 месяцев)</p>
+            <ul class="job__list">
+              <li>Проводка оптоволоконного кабеля по квартирам и частным участкам</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Директор магазина — ООО "Пицца с собой", Витебск</h3>
+            <p class="job__period">Май 2020 — Июль 2021 (1 год 3 месяца)</p>
+            <ul class="job__list">
+              <li>Набор, контроль и управление персоналом</li>
+              <li>Работа с документацией, банками, поставщиками, арендодателями</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Учитель английского языка — Kiddie English training center, Китай</h3>
+            <p class="job__period">Август 2018 — Февраль 2020 (1 год 7 месяцев)</p>
+            <ul class="job__list">
+              <li>Обучение английскому языку детей 6–15 лет</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Продавец-консультант — ООО "ОП НИИ ПКД", Витебск</h3>
+            <p class="job__period">Сентябрь 2016 — Июль 2018 (1 год 11 месяцев)</p>
+            <ul class="job__list">
+              <li>Консультация покупателей, реализация плана продаж</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Мастер цеха — ОАО "Витебскдрев", Витебск</h3>
+            <p class="job__period">Февраль 2013 — Июль 2016 (3 года 6 месяцев)</p>
+            <ul class="job__list">
+              <li>Работа с документацией</li>
+              <li>Распределение задач для персонала</li>
+              <li>Контроль соблюдения техники безопасности и состояния оборудования</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3 class="job__title">Столяр-станочник — ОАО "Витебскдрев", Витебск</h3>
+            <p class="job__period">Август 2008 — Февраль 2013 (4 года 7 месяцев)</p>
+            <ul class="job__list">
+              <li>Работа на станках для раскроя и торцовки пиломатериалов</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="section" id="education" aria-labelledby="education-heading">
+          <h2 class="section__heading" id="education-heading">Образование</h2>
+
+          <article class="education-item">
+            <h3 class="education-item__title">Белорусский государственный технологический университет, Минск</h3>
+            <p class="education-item__meta">2018 · Факультет лесной инженерии, материаловедения и дизайна</p>
+            <p>Специальность: 1-46 01 02 Технология деревообрабатывающих производств</p>
+          </article>
+
+          <article class="education-item">
+            <h3 class="education-item__title">ВГТК — Технология деревообрабатывающих производств</h3>
+            <p class="education-item__meta">Техник-технолог, столяр, станочник, рамщик</p>
+          </article>
+        </section>
+
+        <section class="section" id="courses" aria-labelledby="courses-heading">
+          <h2 class="section__heading" id="courses-heading">Курсы и сертификаты</h2>
+
+          <h3 class="section__subheading">Повышение квалификации</h3>
+          <ul class="plain-list">
+            <li><strong>2022</strong> — RS School EPAM, Frontend developer</li>
+            <li><strong>2022</strong> — YouTube-канал «Фрилансер по жизни», курс по вёрстке сайтов (HTML, CSS, JS)</li>
+            <li><strong>2022</strong> — YouTube-канал Владилена Минина, «Сложный JavaScript простым языком»</li>
+            <li><strong>2022</strong> — DevEducation, Frontend developer</li>
+            <li><strong>2020</strong> — International Open Academy, 120 hour TESOL Certificate Course</li>
+          </ul>
+
+          <h3 class="section__subheading">Тесты и сертификаты</h3>
+          <ul class="plain-list">
+            <li><strong>2022</strong> — RS School THE ROLLING SCOPES SCHOOL, JS/FE PRE-SCHOOL 2022Q2 (JavaScript)</li>
+            <li><strong>2023</strong> — 1С-Битрикс: Контент-менеджер</li>
+            <li><strong>2023</strong> — 1С-Битрикс: Многосайтовость</li>
+            <li><strong>2023</strong> — 1С-Битрикс: Установка и настройка</li>
+          </ul>
+        </section>
+
+        <section class="section" id="languages" aria-labelledby="languages-heading-content">
+          <h2 class="section__heading" id="languages-heading-content">Языки</h2>
+          <ul class="plain-list">
+            <li><strong>Русский</strong> — C2, в совершенстве</li>
+            <li><strong>Белорусский</strong> — родной</li>
+            <li>
+              <strong>Английский</strong> — B2, средне-продвинутый. Практика: преподавание английского детям в Китае (2018–2020), работа в
+              международной компании в Литве (2021–2022)
+            </li>
+            <li><strong>Китайский</strong> — A1, начальный</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <a class="footer__link" href="https://github.com/inbox013">GitHub: inbox013</a>
+      <span class="footer__year">© 2026</span>
+      <a class="footer__logo-link" href="https://rs.school/">
+        <img class="footer__logo" src="img/rs-school-logo.svg" alt="Логотип RS School" width="80" height="30">
+        <span class="footer__logo-placeholder">RS School</span>
+      </a>
+    </footer>
   </body>
 </html>
